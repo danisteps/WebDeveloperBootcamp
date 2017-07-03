@@ -1,0 +1,32 @@
+h1{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+table td:nth-of-type(2) {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-top: 10px;
+	border-bottom: 10px;
+}
+
+table tr:nth-of-type(2) td{
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-left: 10px;
+	border-right: 10px;
+}
+
+table tr:nth-of-type(2) td:nth-of-type(2){
+	border: 2px solid black;
+}
